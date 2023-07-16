@@ -1,0 +1,149 @@
+*{padding: 0; margin: 0; box-sizing: border-box; -webkit-box-sizing: border-box;}
+html,body{height: 100%; width: 100%; font-family:"pennaregular";}
+a,a:hover{text-decoration: none !important;}
+.clear{clear: both;}
+.container{height: 100%; width: 1150px; margin: 0 auto;}
+.containertop{height: 100%; width: 90%; margin: 0 auto; position: relative;}
+@font-face {
+    font-family: 'pennaregular';
+    src: url(../fonts/penna-webfont.woff2) format('woff2'),
+         url(../fonts/penna-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.toplinks{float: left; width: 100%; background-image: url(../images/banner.png); background-repeat: no-repeat; background-position: top center; padding-top: 10px; }
+.toplinks .logo{float: left; width: 8%;}
+.toplinks .nav{display: inline-block;float: left; margin-top: 20px;}
+.toplinks .nav li{display: inline-block; list-style: none; font-size:24px; margin-left: 30px; text-transform: capitalize;}
+.toplinks .nav li:first-child{margin-left: 155px;}
+.toplinks .nav a:hover,.nav li.active a{color: #e1bc33;}
+.toplinks a{color: #fff;}
+.toplinks .phone{background-image: url(../images/phone.png); background-repeat: no-repeat; background-position: left 16px; padding-left: 20px; font-size:35px; margin-top: 0px;}
+.toplinks li:last-child{margin-left: 20px;}
+.toplinks .inr a{background-image: url(../images/inrarrow.png); font-size:24px;; background-repeat: no-repeat; background-position: right 13px;float: right; display: inline-block;  padding-right: 20px; margin-top: 28px;}
+.toplinks .content{float: left; width: 100%; text-align: center; color: #fff;  margin-top: 340px; padding-bottom: 75px;}
+.content h1{ font-weight: 100; text-transform: uppercase;font-size: 45px; margin-bottom: 60px;}
+.content h2{ font-weight: 100; font-family:"Myriad Pro"; font-size: 45px;}
+.content .country{}
+.content .country li{list-style:none; display: inline-block;margin-left: 20px; color: #b4966e; text-transform: capitalize; font-size: 35px;position: relative}
+.content .country li:first-child{margin-left: 0px;}
+.content .country li:after{height:20px; width: 1px; position: absolute; content: ""; background-color: #b4966e; top:10px; right: -14px;}
+.content .country li:last-child:after{height:0px; width: 0px;}
+.toplinks span a{background-image: url(../images/share.png); background-repeat: no-repeat; position: absolute; right: 0px; padding: 17px; top: 120px;}
+.toplinks span a:hover{background-image: url(../images/shareh.png);}
+.toplinks span2 a{background-image: url(../images/sound.png); background-repeat: no-repeat; position: absolute; right: 0px; padding: 17px; top: 175px;}
+.toplinks span2 a:hover{background-image: url(../images/soundh.png);}
+.banner1{float: left;width: 100%; background: url(../images/banner1.png) no-repeat center fixed; text-align: center; color:  #000000; padding-bottom: 213px;}
+.banner1 h1{font-size:40px; width: 67%; text-transform: uppercase ; margin-top: 60px;margin-left: 200px; }
+.banner1 h2{font-size:25px; width: 70%;margin-left: 185px; font-weight: 100; margin-top: 30px;}
+.banner1 h6{font-size:25px; width: 45%; color: #fff; float: right; text-align: left; font-weight: 100;  margin-top: 160px; line-height: 32px;}
+.banner1 h6 p{margin-top: 20px;}
+.banner1 h6 p a{font-size:18px; color: #fff; text-transform: uppercase; margin-top: 20px;}
+.banner1 h6 p a:hover{color: #e1bc33;}
+.trips{float: left; width: 100%;background-color: #f3f1f1;  text-align: center; position: relative; text-transform: uppercase; padding-top: 60px;}
+.trips h2{font-size: 45px; font-weight: 100;}
+.trips span{position: absolute; top: -47px;left: 695px; }
+.tripgallery{margin-top: 40px;}
+.tripgallery li{list-style: none; display: inline-block; margin: 1px; float: left;width: 19.84%;float: left;margin: 1px; position: relative}
+.tripgallery li a img{width: 100%; display: block; color: #fff; }
+.tripgallery li:hover{transform: scale(1.1); transition-duration: 1s;z-index: 20;}
+.tripgallery h2{position: absolute;bottom: 30px; text-transform: capitalize;font-size:35px; font-weight: 100; width: 100%; text-align: center;}
+.tripgallery h3{position: absolute;bottom: 35px; left: 30px; text-transform: capitalize;font-size:35px; font-weight: 100; width: 70%; text-align: left;}
+.tripgallery a{color:#fff;}
+.trips h1{float:left; width:100%; text-align: center; margin-top: 30px; margin-bottom: 30px;}
+.trips h1 a{color: #000000; font-size: 18px; padding: 15px 25px;}
+.trips h1 a:hover{ border:1px solid #000000; transition-duration: 0.5s;}
+.banner2{float: left; height: 490px; width: 100%; background: url(../images/banner3.png) no-repeat center fixed;}
+.banner3{float: left; height: 540px; width: 100%; background: url(../images/banner4.png) no-repeat center fixed;}
+.clientgallery{ float: left; width: 100%; background-color: #f3f1f1;font-size: 28px; color: #202020; font-weight: 100;  padding-bottom: 100px;}
+.clientgallery h3{font-size: 45px; font-weight: 100; text-align: center; text-transform: uppercase; padding-top: 60px; padding-bottom: 45px;}
+.clientgallery h4 img{position: absolute; top: -47px;left: 515px; border: none;}
+.clientgallery .quote1{width: 30%; float: left;}
+.clientgallery .quote2{width: 30%; float: right; margin-top: 360px; margin-right: 10px;}
+.clientgallery span{ display: block; font-weight: bold; margin-top: 30px;}
+.clientgallery img{ border: 15px solid #fff;}
+.clientgallery1{position: relative; background-image: url(../images/collage.png); background-repeat:no-repeat; background-position: left 140px;;float: left; width: 100%;}
+.clientgallery1 a{color: #000000; font-size: 18px; padding: 15px 25px; text-transform: uppercase; position: absolute; bottom:10px; font-weight: bold;}
+.clientgallery1 a:hover{ border:1px solid #000000; transition-duration: 0.5s;}
+.storycoloumn{ float: left; width: 100%; }
+.stories{width: 100%; float: left;position:relative; margin-bottom: 70px;}
+.stories h3{font-size: 45px; font-weight: 100; text-align: center; text-transform: uppercase; padding-top: 60px; padding-bottom: 100px;}
+.stories h4 img{position: absolute; top: -47px;left: 515px; border: none;}
+.storyhover{position: relative; margin-left: 10px;}
+.storyhover li{list-style: none;}
+.storyhover .content{width:285px;text-align: center;padding-bottom: 105px; position: absolute;  background-color: rgba(0,0,0,0.5); bottom: 50px; height: 120px; z-index: 10; transition: all ease 0.8s;}
+.content span{color:#fff; text-align: center; font-size: 35px; font-weight: 100; text-transform: none;  bottom: 10px; position: absolute; left: 0px; right: 0; padding: 15px 45px;}
+.storyhover li:hover .content{background-color: #fff;  top: 275px;  box-shadow: 2px 2px 5px #888888; padding-bottom: 337px;  }
+.storyhover li a{ position: relative; float: left; display: inline-block; width: 25%; height: 502px;}
+.storyhover li:hover a{transform: scaleX(1.1); transition-duration: 1s; z-index: 200; top: -55px; background-position: 0px -130px;}
+.storyhover a.story1{background-image: url(../images/story1.png); background-repeat: no-repeat; background-position: 0px 0px;}
+.storyhover a.story2{background-image: url(../images/story2.png); background-repeat: no-repeat; background-position: 0px 0px;}
+.storyhover a.story3{background-image: url(../images/story3.png); background-repeat: no-repeat; background-position: 0px 0px;}
+.storyhover a.story4{background-image: url(../images/story4.png); background-repeat: no-repeat; background-position: 0px 0px;}
+
+
+.storyhover li:hover span{color: #c7a076; animation: floattext ease 0.4s forwards; -webkit-animation: floattext ease 0.4s forwards;}
+@keyframes floattext{
+    0%{
+         top: 225px;
+    }
+    50%{
+         top: 125px;
+    }
+    100%{
+         top: 0px;
+    }
+}
+.content p{color:#000000; font-size: 28px; width: 80%; margin-left: 10%; line-height: 35px; text-transform: none; font-weight: 100; letter-spacing: 0px; padding-bottom: 30px;visibility: hidden; opacity: 0; padding-top: 30%;}
+.storyhover li:hover p{visibility: visible; opacity: 1; transition-delay: 0.5s; transition: ease}
+.storyhover .content h5{padding: 15px 24px; top: 0px; text-transform: uppercase; font-size: 18px; color: #000000; font-weight: 600; letter-spacing: 3px; top: 40px;visibility: hidden;opacity: 0; width: 161px; margin-left: 22%;}
+.storyhover li:hover h5{  display: block; visibility: visible;opacity: 1; transition-delay: 0.8s}
+.storyhover .content h5:hover{ border: 1px solid #000000;}
+.viewmore{padding-bottom: 70px;}
+.viewmore a{color: #000000; text-transform: uppercase; font-size:18px; margin-left: 44%; padding: 15px 45px; font-weight: 600; letter-spacing: 2px;margin-bottom: 20px;}
+.viewmore a:hover{border: 1px solid #000000;}
+.subscribe{float: left; width: 100%; background-image: url(../images/subscribebg.png); background-repeat: no-repeat; padding-top:35px; padding-bottom: 16px;}
+.subscribe .left{float:left; font-size: 35px; font-weight: 100; text-transform: uppercase;}
+.subscribe .left span{font-size:30px; display: block; text-transform: none; font-weight: 600;}
+.subscribe .right{float: right; display:inline-block; position: relative;}
+.subscribe .right input{height: 60px; width: 455px; border: 0px; padding:20px; text-transform: uppercase;font-family:"pennaregular"; letter-spacing:1px;  font-weight: 600;}
+.subscribe .right button{position: absolute;right: 18px;top: 19px;background-image: url("../images/search2.png");background-repeat: no-repeat;padding: 2px 5px;border: 0px;}
+.footer{float: left; width: 100%; background-color: #212121; padding-top:50px; text-transform: capitalize; padding-bottom:55px;}
+.footer ul{display: inline-block; vertical-align: top;}
+.footer li{ list-style: none; margin-top: 20px; color: #737373;}
+.footer span{color: #fff; font-size:30px;  margin-left: 0px; display: block;}
+.footer li a{color: #737373; font-size:20px;}
+.footer li a:hover{color: #fff;}
+.fo1{float: left; padding-top: 10px;font-size: 14px; color: #5c5c5c; width: 18%; text-transform: uppercase; text-align: center; letter-spacing: 2px; }
+.fo1 img{padding-bottom: 20px;}
+.fo1 span{font-size: 14px; color: #5c5c5c;}
+.fo2{float:left; display: inline-block; margin-left: 95px;}
+.fo2 ul:last-child{ margin-left:40px;}
+.fo3{float: left; display:inline-block;  width: 27%; margin-left: 5%;}
+.fo3 li{font-size:35px; color:#828282;}
+.social{display: block; width:100%;}
+.social li{display:inline-block; background-repeat: no-repeat; margin-left: 25px;  margin-top:20px; }
+.social li:first-child{margin-left:0px;  display: block; font-size: 20px;  margin-top:45px; }
+.social li.facebook{ background-image: url(../images/f.png);background-position: center; padding:2px 3px;}
+.social li.twitter{ background-image: url(../images/twitter.png);background-position: center; padding:2px 7px;}
+.social li.google{ background-image: url(../images/g+.png);background-position: center; padding:2px 12px;}
+.social li.insta{ background-image: url(../images/insta.png);background-position: center; padding:2px 8px;}
+.social li.youtube{ background-image: url(../images/youtube.png);background-position: center; padding:2px 11px;}
+.social li.facebook:hover{ background-image: url(../images/ff.png) }
+.social li.twitter:hover{ background-image: url(../images/twitterf.png) }
+.social li.google:hover{ background-image: url(../images/g+f.png) }
+.social li.insta:hover{ background-image: url(../images/instah.png) }
+.social li.youtube:hover{ background-image: url(../images/youtubeh.png) }
+.fo4{float:right; display: inline-block; font-size:22px; letter-spacing: 1px;}
+.fo4 li a:hover{color:#f7941e;}
+.incredible{display: block; width:100%; background-image: url(../images/incredible.png);  background-repeat: no-repeat;;background-position: -3px bottom;}
+.incredible li{display:inline-block; background-repeat: no-repeat; margin-left: 25px;  margin-top:45px;}
+.incredible li:first-child{margin-left:0px;}
+.incredible li:last-child{margin-left:0px;  display: block;  margin-top:10px;}
+.footerbottom{float:left; width: 100%; background-color:#212121; text-align:center; position:relative;}
+.footerbottom span{color: #fff; font-size:30px; text-transform: capitalize;}
+.footerbottom span::before{ height:1px; width:495px;position: absolute; background-color:#424242; content:""; top:15px; left:160px}
+.footerbottom span::after{ height:1px; width:495px;position: absolute; background-color:#424242; content:""; top:15px; right:160px}
+.footerbottom li{ list-style: none; display: inline-block; margin-left: 40px; padding-top:35px; padding-bottom:35px;}
+.footerbottom li:first-child{margin-left:0px;}
